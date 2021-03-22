@@ -1,0 +1,17 @@
+{
+  "name": "diambars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@octokit/rest": "^18.3.5",
+    "dotenv": "^8.2.0"
+  }
+}
