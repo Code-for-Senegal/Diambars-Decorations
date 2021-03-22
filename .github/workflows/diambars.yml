@@ -10,16 +10,10 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
+        env:
+          TOKEN_SECRET: ${{secrets.TOKEN_SECRET}}
       - name: Diambars action step
         uses: ./.github/actions/diambars # Uses an action in the root directory
-        with:
-          node-version: "12.x"
-      # - name: Install Dependencies
-      #   run: npm install
-      # - name: Run index.js
-      #   env:
-      #     TOKEN_SECRET: ${{secrets.TOKEN_SECRET}}
-      #   run: npm start
       - name: Commit the new README.MD file
         run: |-
           git diff
