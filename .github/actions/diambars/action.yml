@@ -1,0 +1,9 @@
+name: Diambars create README
+description: Get contributor of Code for Senegal
+env:
+    TOKEN_SECRET: ${{secrets.TOKEN_SECRET}}
+runs:
+  using: node12 # Runtime Environment
+  run: npm install
+  run: npm start
+  main: index.js # Script to run, path is relative

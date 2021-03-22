@@ -1,0 +1,29 @@
+name: 'Diambars'
+on: [push]
+
+jobs:
+  create_diambars:
+    runs-on: ubuntu-latest
+    name: A job to create Diambars
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Diambars action step
+        uses: ./.github/actions/diambars # Uses an action in the root directory
+        with:
+          node-version: "12.x"
+      # - name: Install Dependencies
+      #   run: npm install
+      # - name: Run index.js
+      #   env:
+      #     TOKEN_SECRET: ${{secrets.TOKEN_SECRET}}
+      #   run: npm start
+      - name: Commit the new README.MD file
+        run: |-
+          git diff
+          git config --global user.email "genova@dofbi.com"
+          git config --global user.name "Mamadou Diagne"
+          git diff --quiet || (git add README.md && git commit -m "Update the README.md")
+          git push
