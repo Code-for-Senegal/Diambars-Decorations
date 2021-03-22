@@ -71,4 +71,5 @@ The order is made up of the following merit classes:
 <div class="pull-right"><a href="https://github.com/srz2"><img src="https://avatars.githubusercontent.com/u/1273832?v=4&size=50" /><br>srz2</a></div>
 <div class="pull-right"><a href="https://github.com/maguiNdong"><img src="https://avatars.githubusercontent.com/u/5518146?v=4&size=50" /><br>maguiNdong</a></div>
 <div class="pull-right"><a href="https://github.com/Bahkao"><img src="https://avatars.githubusercontent.com/u/5942627?v=4&size=50" /><br>Bahkao</a></div>
+<div class="pull-right"><a href="https://github.com/NDOY3M4N"><img src="https://avatars.githubusercontent.com/u/46305144?v=4&size=50" /><br>NDOY3M4N</a></div>
 

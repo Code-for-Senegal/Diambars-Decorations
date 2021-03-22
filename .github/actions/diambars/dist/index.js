@@ -77,6 +77,13 @@ const creatReadme = (diambars) => {
 
 Decorations for distinguished contributor to Code for Senegal
 
+## Repository
+
+* [senegalouvert](https://github.com/senegalouvert)
+* [KaayCoder](https://github.com/KaayCoder)
+* [OpenCOVID19-Senegal](https://github.com/OpenCOVID19-Senegal)
+* [Code-for-Senegal](https://github.com/Code-for-Senegal)
+
 ## Merit classes
 
 The order is made up of the following merit classes:
