@@ -2,7 +2,7 @@
 
 Decorations for distinguished contributor to Code for Senegal
 
-## Repository
+## Nos Organisations
 
 * [senegalouvert](https://github.com/senegalouvert)
 * [KaayCoder](https://github.com/KaayCoder)
