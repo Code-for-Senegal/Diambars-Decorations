@@ -1,4 +1,4 @@
-# Diambars Decorations
+# Diambars Decorations 🥇🇸🇳
 
 Decorations for distinguished contributor to Code for Senegal
 
